@@ -1,0 +1,8 @@
+<!-- 推荐 -->
+    <view class="header">
+      <view class="title">{{title}}</view>
+      <view>
+      <text>{{content}}</text>
+      <view bindtap="hanleclick">更多 ></view>
+      </view>
+    </view>

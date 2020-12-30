@@ -1,0 +1,117 @@
+.video .header{
+  display: flex
+}
+
+.video .header{
+  padding:10rpx 10rpx
+}
+
+.video .header image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.video .header input {
+  flex-grow: 1;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  margin: 0 10rpx;
+  border: 1rpx solid #eee
+}
+
+.video .header input .placeholder{
+  color: red;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 50rpx
+}
+
+.navScroll{
+  display: flex;
+  height: 100rpx
+}
+
+.navScroll .navItem{
+  white-space: nowrap;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  margin: 0 20rpx;
+}
+
+.navScroll .navItem.active{
+  border-bottom: 1rpx solid red
+}
+
+.videoList{
+  height: calc(100vh - 40rpx - 72rpx - 100rpx)
+}
+
+.videoList .common {
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.videoList .videoItem{
+  padding:3%;
+  padding-bottom:0;
+}
+
+
+.videoList{
+  padding-top:40rpx;
+}
+
+.videoList .content {
+  font-size: 26rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  max-width: 500rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* footer */
+.footer {
+  border-top: 1rpx solid #eee;
+  padding: 20rpx 0;
+}
+.footer .avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.footer  .nickName {
+  font-size: 26rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+
+.footer .comments_praised {
+  float: right;
+}
+.comments_praised .btn {
+  display: inline;
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.comments_praised .btn:after {
+  border: none;
+}
+
+.comments_praised .item {
+  margin-left: 50rpx;
+  position: relative;
+}
+
+.comments_praised .item .count {
+  position: absolute;
+  top: -20rpx;
+  font-size: 20rpx;
+}

@@ -1,0 +1,40 @@
+<view>
+    <scroll-view 
+      scroll-x
+      class="handle"
+      enable-flex
+      >
+      <view class="title">  
+        <text class="a">推荐</text>
+        <text>官方</text>
+        <text>视频</text>
+        <text>歌单</text>
+        <text>精品</text>
+        <text>华语</text>
+        <text>流行</text>
+        <text>民谣</text>
+        <text>电子</text>
+        <text>摇滚</text>
+        </view>
+      </scroll-view>  
+        
+  <swiper circular="true">
+    <swiper-item>
+      <image src="/static/images/社会迦.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/社会迦.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/社会迦.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class=".recommendScroll">
+    <view class="scrollItem" wx:for="{{result}}" wx:key="id">  
+      <image src="{{item.picUrl}}"></image>
+      <view>{{item.name}}</view>  
+    </view>
+  </view>
+</view>
+
+

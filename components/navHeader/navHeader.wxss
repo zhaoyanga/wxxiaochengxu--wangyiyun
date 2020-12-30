@@ -1,0 +1,17 @@
+.header .title{
+  font-size: 28rpx;
+  color: #666
+}
+
+.header view{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx
+}
+
+.header view view{
+  font-size: 20rpx;
+  padding: 10rpx 20rpx;
+  border: 1rpx solid;
+  border-radius: 20rpx;
+}
